@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="468.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxappescolar.controlador.FXMLFormularioAlumnoController">
+   <children>
+      <ImageView fx:id="ivFoto" fitHeight="100.0" fitWidth="100.0" layoutX="506.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="clicSeleccionarFoto" layoutX="493.0" layoutY="129.0" mnemonicParsing="false" onAction="#clicSeleccionarFoto" text="Seleccionar foto" />
+      <TextField fx:id="tfNombre" layoutX="23.0" layoutY="72.0" promptText="Nombre" />
+      <TextField fx:id="tfApePaterno" layoutX="241.0" layoutY="72.0" promptText="Apellido paterno" />
+      <TextField fx:id="tfApeMaterno" layoutX="23.0" layoutY="143.0" promptText="Apellido materno" />
+      <TextField fx:id="tfMatricula" layoutX="241.0" layoutY="143.0" promptText="Matrícula" />
+      <TextField fx:id="tfCorreoElectronico" layoutX="23.0" layoutY="215.0" prefHeight="31.0" prefWidth="218.0" promptText="Correo electrónico" />
+      <DatePicker fx:id="dpFechaNacimiento" layoutX="23.0" layoutY="282.0" promptText="Fecha de naimiento" />
+      <ComboBox fx:id="cbFacultad" layoutX="23.0" layoutY="352.0" prefHeight="31.0" prefWidth="187.0" promptText="Facultad" />
+      <ComboBox fx:id="cbCarrera" layoutX="241.0" layoutY="352.0" prefHeight="31.0" prefWidth="187.0" promptText="Carrera" />
+      <Button layoutX="388.0" layoutY="400.0" mnemonicParsing="false" onAction="#clicGuardar" prefHeight="31.0" prefWidth="118.0" text="Guardar" />
+      <Button layoutX="518.0" layoutY="400.0" mnemonicParsing="false" onAction="#clicCancelar" prefWidth="118.0" text="Cancelar" />
+      <Label layoutX="23.0" layoutY="45.0" text="Ingrese el nombre:" />
+      <Label layoutX="241.0" layoutY="45.0" text="Ingrese el primer apellido:" />
+      <Label layoutX="23.0" layoutY="116.0" text="Ingrese el segundo apellido:" />
+      <Label layoutX="241.0" layoutY="116.0" text="Ingrese la matrícula:" />
+      <Label layoutX="23.0" layoutY="187.0" text="Ingrese el correo electrónico:" />
+      <Label layoutX="23.0" layoutY="255.0" text="Ingrese la fecha de nacimiento:" />
+      <Label layoutX="23.0" layoutY="326.0" text="Ingrese la facultad:" />
+      <Label layoutX="241.0" layoutY="326.0" text="Ingrese la carrera:" />
+   </children>
+</AnchorPane>
