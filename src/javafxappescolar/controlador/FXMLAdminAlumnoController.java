@@ -30,9 +30,8 @@ import javafxappescolar.modelo.pojo.ResultadoOperacion;
 import javafxappescolar.utilidades.Utilidad;
 
 /**
- * FXML Controller class
  *
- * @author eugen
+ * @author uriel
  */
 public class FXMLAdminAlumnoController implements Initializable, INotificacion {
 

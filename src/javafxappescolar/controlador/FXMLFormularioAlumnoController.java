@@ -43,9 +43,8 @@ import javafxappescolar.utilidades.Utilidad;
 import javax.imageio.ImageIO;
 
 /**
- * FXML Controller class
  *
- * @author eugen
+ * @author uriel
  */
 public class FXMLFormularioAlumnoController implements Initializable{
 

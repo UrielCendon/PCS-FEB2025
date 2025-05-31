@@ -21,7 +21,6 @@ import javafxappescolar.JavaFXAppEscolar;
 import javafxappescolar.modelo.pojo.Usuario;
 
 /**
- * FXML Controller class
  *
  * @author uriel
  */
